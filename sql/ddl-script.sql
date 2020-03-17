@@ -39,3 +39,4 @@ CREATE TABLE comment(
    FOREIGN KEY (commentPostId) REFERENCES post(postId),
    PRIMARY KEY (commentPostId, commentUserId)
 );
+
